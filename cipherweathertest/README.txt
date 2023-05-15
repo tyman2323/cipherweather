@@ -1,0 +1,8 @@
+Language: Java
+
+Justification:
+
+Java is an excellent language that is both easy to read and has high writability for the programmer. I chose Java because the libraries best suited the work that needed to be done.
+The language is also compiled, meaning it will be able to run in a more optimized manner especially for large datasets like the two .csv files provided.
+
+When running method one, a loop will run to that will match the given date to the provided date by the user. Once theres a match it will check what the sunrise and sunset is for that day. It will then get all those strings in the temp column, parse them to int's, and then calculate the mean and standard deviation. For the second method it will work the same in retrieving the date the user provided. Once they have been found it will check to see if it is less than or equal to 40, if it is it will add it to the arraylist to be displayed. For the third method it will ensure the starting date is the same for both files. Next it will put the temperatures and weather types into the respective hashmaps before with they key being the date. The issue with the third method was that the data values were not in the proper columns, or it was missing information. Rather than to assume, it will end the program and ask the user to reformat the .csv file that has errors. If there are no errors it will go through the hashmap and check to see which date has the smallest difference. 
